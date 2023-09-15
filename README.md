@@ -1,2 +1,0 @@
-# LukkariBot
-simple schedule bot
