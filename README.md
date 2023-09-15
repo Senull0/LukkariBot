@@ -14,7 +14,7 @@ Before running the bot, make sure you have the following installed:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone link
+   git clone https://github.com/Senull0/LukkariBot.git
    ```
 
 2. Install the requirements
