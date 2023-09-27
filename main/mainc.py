@@ -179,8 +179,8 @@ class Tbot:
 
         try:
             WebDriverWait(driver, 1).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'td.nd')))
-            raw_data = driver.find_elements(By.CSS_SELECTOR, "td.nd")  # nd and nd today
-            raw_data_today = driver.find_element(By.CSS_SELECTOR, "td.nd.today")  # nd and nd today
+            raw_data = driver.find_elements(By.CSS_SELECTOR, "td.nd")
+            raw_data_today = driver.find_element(By.CSS_SELECTOR, "td.nd.today") 
         except:
             print("An error occurred, sorry")
 
@@ -200,7 +200,7 @@ class Tbot:
 
         return raw_data_days, data_events
 
-
+    # finnish to english
     def replace_day_abbreviations(self, item):
         words = item.split()
         day_abbrev = words[0]
