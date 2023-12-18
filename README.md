@@ -1,8 +1,13 @@
 # LukkariBot - simple schedule bot
+<p align = "center"> Telegram bot for university schedules. Available in Finnish or English </p>
 
-## Disclaimer
+## Features
+- Multilingual: Finnish and English
+- Get schedules for the upcoming or current week
 
-> This project was created as a test and is not intended for production use
+## Technologies
+- Python (selenium, beautifulsoup4, pyTelegramBotAPI)
+
 
 ## Prerequisites
 Before running the bot, make sure you have the following installed:
